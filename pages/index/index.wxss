@@ -1,0 +1,44 @@
+/**index.wxss**/
+/**功能一轮播图**/
+.slider{
+  height:390rpx;
+  width:100%;
+}
+.slider swiper{
+  width: 100%;
+  height:390rpx;
+}
+.slider image{
+  width:100%;
+  height:390rpx;
+}
+/**功能二九宫格**/
+.index-nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-item{
+  width:33.33333%;
+  height:200rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+.nav-item:nth-child(3n){
+  border-right: 0  none;
+}
+.nav-item image{
+  width:101rpx;
+  height:101rpx;
+}
+/**功能三分割线**/
+.divider{
+  height:30rpx;
+  background-color: #ccc;
+}
+/**功能四按钮**/

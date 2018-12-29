@@ -1,0 +1,6 @@
+<view class="card">
+  <view class="card-item">
+  <text>上传图片</text>
+  <button bindtap='hand1'>选择图片</button>
+  </view>
+</view>
